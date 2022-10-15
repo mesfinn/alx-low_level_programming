@@ -1,8 +1,10 @@
-#include <stdio.h>
+#include<stdio.h>
 
 int main(void)
 {
-	char word[] = "Programming is like building a multilingual puzzle\n";
-	puts(word) ;
+	char text[] = "Programming is like building a multilingual puzzle";
+
+	puts(text);
+
 	return (0);
 };
