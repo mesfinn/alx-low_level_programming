@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	let char a;
-	let int b;
-	let long int c;
-	let long long int d;
-	let float e;
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float e;
 
 	printf("Size of a char: %lu.\n", (unsigned long)sizeof(a));
 	printf("Size of a int: %lu.\n", (unsigned long)sizeof(b));
